@@ -55,9 +55,7 @@ class CoilImageLibrary {
                 .clip(RoundedCornerShape(10.dp))
                 .shadow(15.dp, RoundedCornerShape(15.dp))
                 .clickable {
-                    onImageClick(
-
-                    )
+                    onImageClick()
                 }
         ) {
             Image(
